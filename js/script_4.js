@@ -8,8 +8,8 @@ console.log(`Ширина полосы прокрутки: ${entireWidth - docum
 
 // !Задача №2
 function scrollUp() {
-	window.scrollBy({
-		top: -100,
+	window.scrollTo({
+		top: 100,
 		behavior: "smooth"
 	});
 }
