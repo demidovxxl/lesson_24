@@ -1,0 +1,46 @@
+body{
+	/* значения по умолчанию */
+	font-family: "Lato";
+	color: #424551;
+	font-size: 18px;
+	/* font-size: 16px; */
+}
+.wrapper{
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+	background-color: rgb(226, 226, 226);
+}
+/* ===================================== */
+
+[class*="__container"]{
+	/* + 30px - компенсация падинга безопасности */
+	max-width: 1260px;
+	margin: 0 auto;
+	/* отступы безопасности */
+	padding: 15px 15px;
+}
+
+.js__title {
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+}
+.js__title:not(:last-child) {
+	margin-bottom: 20px;
+}
+.js__media:not(:last-child) {
+	margin-bottom: 40px;
+}
+.js__media img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
